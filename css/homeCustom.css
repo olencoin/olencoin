@@ -1,0 +1,209 @@
+@media(max-width:1100px){
+    #registration-header{
+        margin-right:5px;
+    }
+    .searchbox input{
+        width: 224px;
+        border: 1px solid #2FA034;
+        padding: 5px;
+        transition: all 0s ease-in-out;
+        -webkit-transition: all 0s ease-in-out;
+        -moz-transition: all 0s ease-in-out;
+        -o-transition: all 0s ease-in-out;
+        margin-right: -52px;
+    }
+}
+@media(max-width:1070px){
+    .header-list{
+        display:none;
+    }
+    .mobile-toggle img{
+        display:block;
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .active-mobile-menu{
+        display:block;
+        float:none;
+        padding-bottom: 10px;
+    }
+    .active-mobile-menu .searchbox input, .active-mobile-menu .searchbox img{
+        margin-top: 0;
+    }
+    .active-mobile-menu li{
+        float: none;
+        line-height: unset;
+        margin-left: 20px;
+        padding: 2px;
+    }
+    .chart-1 {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 72px;
+        width: 75%;
+    }
+    .countdown-title {
+        padding-top: 55px;        
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .countdown-clock {
+        padding-top: 55px;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+    .calendar-main-wrap .wrapper {
+        overflow-x: scroll;
+        height: 300px;
+    }
+}
+
+@media(max-width: 925px){
+    .trading-platform-wrap ul li p {
+        font-size: 2.3vw;
+    }
+    .chart-1,.chart-2{
+        width:100%;
+        text-align: center;
+    }
+    .chart-1 img{
+        display: none;
+    }
+    .chart-1 {       
+        background: url(../images/circle-chart.png) no-repeat;
+        width: 614px;
+        height: 665px;
+        margin-left: calc(50% - 307px);
+    }
+    .chart-2 img{
+        max-width: 100%;
+        width: auto;
+    }
+    #description2 {
+        top: -10px;
+        max-width: 198px;
+        left: 394px;
+        white-space: nowrap;
+        text-align: left;
+        white-space: inherit;
+    }
+}
+
+@media(max-width: 790px) {
+    .money-flow p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 640px) {
+    .money-flow p {
+        font-size: 15px;
+    }
+    .chart-1 {        
+        width: 100%;
+        margin-left: -30px;        
+    }
+    .chart-1 p {        
+        font-size: 14px;
+    }
+    #description2 {
+        top: 48px;
+        max-width: 198px;
+        left: 340px;
+        white-space: nowrap;
+        text-align: left;        
+    }
+    .davor-coin-table table{
+        font-size: 16px;        
+    }
+    .davor-coin-wrap p {        
+        font-size: 16px;        
+    }
+}
+@media(max-width:580px){
+    .chart-1{
+        background-size: contain;
+        width: 100%;
+        height: 0;
+        padding-top: 100%;
+        margin: 0 auto;
+    }
+    .chart-1 p {
+        font-size: 13px;
+    }
+    #description1 {        
+        left: 22%;
+        top: -4%;
+    }
+    #description2{
+        top: 3%;
+        left: 60%;
+        white-space: inherit;
+    }
+    #description3{
+        top: 87%;
+        left: 33%;
+        height: 40px;
+    }
+    .chart-1 span{
+        font-size: 21px;
+    }
+    #data1{
+        top: 28%;
+        left: 26%;        
+    }
+    #data2{
+        left: 51%;
+        top: 31%;
+    }
+    #data3{
+        top: 60%;
+        left: 38%;
+    }
+    .main-clock{
+        max-width: 500px;
+        width: auto;
+    }
+    .clock-part {        
+        width: 100%;
+        height: 120px;        
+        margin: 20px 5px;        
+        position: relative;
+        width: calc(25% - 10px);
+        background-position: center;
+        float: left;
+        display: block;      
+        border-radius: 6px;
+    }
+    .lock-boost-wrap {        
+        min-height: 630px;        
+        background-position-x: 39%;        
+    }
+    .footer ul {        
+        padding-bottom: 20px;        
+    }
+    .footer ul li{
+        width: 33%;    
+        text-align: center;
+        float: none;
+    }
+    .footer ul li img {       
+        max-width: 84px;
+        padding: 5px;
+    }
+}
+@media(max-width: 450px) {
+    .money-flow p {
+        font-size: 11px;
+    }
+    .chart-1 p{
+        font-size: 11px;
+    }
+}
