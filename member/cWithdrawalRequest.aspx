@@ -5,31 +5,29 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <!-- Page content -->
-	
-	<style>
-		.z-depth-5 h4
-		{
-			text-align:center;
-		}
-	</style>
-	
-	
-	<div id="content" class="app-content" role="main">
-	
-    <div class="col s12 m8 l9">
-        <div class="card-panel">
-            <p class="z-depth-5">
+      <div class="col-sm-5" id="show" runat="server">
                 
-            </p>
-        </div>
-    </div>
-    <div class="container">
-        <div style="display: none">
-            <asp:LinkButton ID="lnk1" runat="server" Text="Click here to update Bitcoin Wallet Address"
-                OnClick="lnk1_Click" ForeColor="Red"></asp:LinkButton></span>
-        </div>
-		<h4>WITHDRAW YOUR WALLET</h4>
-        <table style="margin-bottom:20px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading font-bold" style="background-color:#242a30; color:white;">WITHDRAW YOUR WALLET</div>
+                    <div class="panel-body">
+                        
+                        
+                             <div class="col-sm-10" id="link" runat="server">
+							 
+							 
+
+                         <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
+                         <div class="form-group">
+						 
+                              <asp:LinkButton ID="lnk1" runat="server" Text="Click here to update Bitcoin Wallet Address"
+                               OnClick="lnk1_Click" ForeColor="Red"></asp:LinkButton>
+                          </div>
+                            </div>
+							<div>
+							 <a href="Edit_Profile.aspx" style="font-size:20px;color:#3A3F51;font-weight:bold;" target="_blank">Make sure your wallet address is updated
+							 <br>Update Now</a>
+							 </div>
+                            <table>
             <tr>
                 <td>
                     <h4 class="header">Your E-Wallet Balance:
@@ -68,7 +66,8 @@
             </tr>
 
         </table>
-        <asp:Button ID="Button1" runat="server" class="btn btn-primary" OnClick="Button1_Click"
+                        <br/>
+                        <asp:Button ID="Button1" runat="server" class="btn btn-primary" OnClick="Button1_Click"
             Text="Submit" ValidationGroup="g1" />
         <asp:Button ID="Button2" runat="server" class="btn btn-primary" Text="Cancel" OnClick="Button2_Click" />
         <br>
@@ -89,9 +88,9 @@
             <SortedDescendingCellStyle BackColor="#CAC9C9" />
             <SortedDescendingHeaderStyle BackColor="#000065" />
         </asp:GridView>
-    </div>
-</div>
- 
+                    </div>
+            </div>  
+              </div>
     <!-- /.box-body -->
     <!-- /.box-footer-->
 
